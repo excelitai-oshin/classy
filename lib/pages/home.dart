@@ -9,10 +9,8 @@ class HomeScreen extends StatelessWidget {
       backgroundColor: Colors.grey,
       body: Column(
           children: [
-            Center(
-              child: Text(
-                'welcome ', style: TextStyle(color: Colors.black, fontSize: 30),),
-            ),
+            Text(
+              'welcome ', style: TextStyle(color: Colors.black, fontSize: 30),),
           ]
       ),
 
